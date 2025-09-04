@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using NSE.Identidade.API.Configuration;
 using NSE.Identidade.API.Extensions;
-
+using NSE.Identidade.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +31,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
 
