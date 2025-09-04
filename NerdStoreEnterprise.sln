@@ -26,6 +26,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Carrinho", "Carrinho", "{34C42E25-989E-4F30-A9B8-93F4D93F77F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamento", "Pagamento", "{C34E095E-23F4-48DC-BC03-A4AFE6F95D7F}"
+	ProjectSection(SolutionItems) = preProject
+		src\services\NSE.Identidade.API\Program.cs = src\services\NSE.Identidade.API\Program.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pedido", "Pedido", "{5288F2EF-6C58-4C44-A3F8-C22EFF17CADB}"
 EndProject
