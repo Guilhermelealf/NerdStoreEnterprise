@@ -20,6 +20,12 @@ builder.Services.AddOpenApi();
 
 builder.AddSwaggerConfig();
 
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddSwaggerGen();
+
+builder.AddSwaggerConfig();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
