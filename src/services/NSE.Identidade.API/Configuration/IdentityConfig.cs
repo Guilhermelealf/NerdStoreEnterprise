@@ -44,6 +44,5 @@ namespace NSE.Identidade.API.Configuration
             return builder;
 
         }
-
     }
 }

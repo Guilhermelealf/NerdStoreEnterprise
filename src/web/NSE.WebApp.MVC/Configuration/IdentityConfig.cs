@@ -12,6 +12,7 @@ namespace NSE.WebApp.MVC.Configuration
                     options.LoginPath = "/login";
                     options.AccessDeniedPath = "/acesso-negado";
                 });
+
         }
 
         public static void UseIdentityConfiguration(this IApplicationBuilder app)

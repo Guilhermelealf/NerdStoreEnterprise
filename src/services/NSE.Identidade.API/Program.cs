@@ -10,8 +10,6 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
-builder.AddSwaggerConfig();
-
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen();
