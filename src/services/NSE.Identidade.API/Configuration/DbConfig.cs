@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using NSE.Identidade.API.Data;
 
 namespace NSE.Identidade.API.Configuration
-
 {
     public static class DbConfig
     {

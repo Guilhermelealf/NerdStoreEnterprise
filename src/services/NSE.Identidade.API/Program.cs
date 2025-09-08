@@ -1,12 +1,4 @@
-using System.Text;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.OpenApi.Models;
 using NSE.Identidade.API.Configuration;
-using NSE.Identidade.API.Extensions;
-using NSE.Identidade.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

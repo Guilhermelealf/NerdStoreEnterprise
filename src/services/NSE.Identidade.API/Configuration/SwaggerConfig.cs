@@ -1,5 +1,4 @@
 ﻿using Microsoft.OpenApi.Models;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace NSE.Identidade.API.Configuration
 {
