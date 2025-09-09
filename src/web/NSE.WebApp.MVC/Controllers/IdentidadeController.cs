@@ -25,8 +25,6 @@ namespace NSE.WebApp.MVC.Controllers
         {
             if (!ModelState.IsValid) return View(usuarioRegistro);
 
-            if (false) return View(usuarioRegistro);
-
             var response = await _autenticacaoService.Registro(usuarioRegistro);
 
             return RedirectToAction("Index", "Home");
