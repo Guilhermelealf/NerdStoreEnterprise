@@ -1,6 +1,0 @@
-@NSE.Carrinho.API_HostAddress = http://localhost:5013
-
-GET {{NSE.Carrinho.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

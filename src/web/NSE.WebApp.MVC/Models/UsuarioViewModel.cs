@@ -5,6 +5,10 @@ namespace NSE.WebApp.MVC.Models
 {
     public class UsuarioRegistro
     {
+        public string Nome { get; set; }
+
+        public string Cpf { get; set; }
+
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [EmailAddress(ErrorMessage = "O campo {0} está em formato invalido")]
         public string Email { get; set; }
@@ -34,6 +38,7 @@ namespace NSE.WebApp.MVC.Models
         public string AccessToken { get; set; }
         public double ExpiresIn { get; set; }
         public UsuarioToken UsuarioToken { get; set; }
+        public ResponseResult ResponseResult { get; set; }
     }
 
     public class UsuarioToken
